@@ -1,2 +1,3 @@
-# EEG-analysis
-EEG signal preprocessing 
+# acmicpc
+
+백준 알고리즘 문제 풀이 

@@ -17,14 +17,12 @@ int main(){
     //arr 0으로 초기화
     memset(arr, 0, sizeof(arr));
 
-
     cin >> n >> m >> v ;
 
     for (int i =0 ; i < m ; i++){
     
         cin >> a >> b;
         arr[a][b] = 1;
-
         arr[b][a] = 1;
     
     }

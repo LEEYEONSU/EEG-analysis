@@ -19,17 +19,16 @@ int main(){
     scanf("%d %d", &n, &m);
 
     for (int i = 0 ; i < m ; ++i){
-        printf("\n");
         for (int j = 0 ; j < n ; ++j){
             scanf("%d",&tomato[i][j]); 
-            printf("%d",tomato[i][j]); 
-
             if(tomato[i][j] == num){
                 q.push(make_pair(n,m));
                 check[i][j] = true;    
             }
         }
     }
+
+	//
 
     while(!q.empty()){
         pair <int,int> x ;

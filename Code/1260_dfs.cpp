@@ -1,5 +1,4 @@
 //1260 DFS
-
 #include <cstdio>
 #include <iostream>
 
@@ -21,7 +20,6 @@ void dfs(int start){
     }
 }
 
-
 int main(){
 
     //arr 0으로 초기화
@@ -33,7 +31,6 @@ int main(){
     
         cin >> a >> b;
         arr[a][b] = 1;
-
         arr[b][a] = 1;
     
     }

@@ -8,7 +8,6 @@ int main(){
 
   stack<char> st;
   string str;
-  int pipe = 0;
   int result =0;
 
   cin >> str;
@@ -22,7 +21,6 @@ int main(){
       else result++;       
     }
   }
-
   cout << result << endl;
   return 0;
 

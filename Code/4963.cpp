@@ -28,8 +28,6 @@ void dfs( int a, int b, int m, int n){
 
 int main(void){
 
-        queue <pair <int,int> > q;
-
         while (1){
                 int result = 0;
                 scanf("%d %d", &n, &m);

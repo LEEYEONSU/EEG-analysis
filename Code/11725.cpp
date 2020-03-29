@@ -11,7 +11,7 @@ int main(void){
 
         int parent[100];
         int check[100] ={0,};
-        int arr[100][100];
+        int arr[100000][100000];
 
         scanf("%d", &N);
 
